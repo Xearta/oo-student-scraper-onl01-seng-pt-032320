@@ -12,8 +12,7 @@ class Scraper
 
 
     end
-
-
+    students
     binding.pry
   end
 
