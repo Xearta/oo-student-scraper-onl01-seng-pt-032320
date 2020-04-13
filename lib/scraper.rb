@@ -4,7 +4,7 @@ require 'pry'
 class Scraper
 
   def self.scrape_index_page(index_url)
-    html = File.read(index_url)
+    html = open(index_url)
     binding.pry
   end
 
