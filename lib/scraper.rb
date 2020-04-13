@@ -9,11 +9,11 @@ class Scraper
     index = Nokogiri::HTML(html)
 
     index.css("div.student-card").each do |student|
-      
+
 
     end
 
-    
+
     binding.pry
   end
 
